@@ -1,0 +1,78 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "welcome to the new blog",
+      "body": "Reprehenderit non ex ea eiusmod eiusmod do esse qui. Ea exercitation occaecat enim amet Lorem ea non tempor aliquip eiusmod sunt adipisicing culpa. Dolore excepteur aliquip eu commodo eu tempor aliquip aliqua. Officia deserunt ad tempor minim amet adipisicing ex nisi sint ullamco ad amet voluptate.",
+      "tags": [
+        "webdev",
+        "coding",
+        "news"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "top 5 css tips",
+      "body": "Reprehenderit non ex ea eiusmod eiusmod do esse qui. Ea exercitation occaecat enim amet Lorem ea non tempor aliquip eiusmod sunt adipisicing culpa. Dolore excepteur aliquip eu commodo eu tempor aliquip aliqua. Officia deserunt ad tempor minim amet adipisicing ex nisi sint ullamco ad amet voluptate.",
+      "tags": [
+        "css",
+        "webdev",
+        "coding"
+      ]
+    },
+    {
+      "title": "Most common case in JS",
+      "body": "Hello World I think I am going to the world",
+      "tags": [
+        "JS",
+        "TS",
+        "Vue.js"
+      ],
+      "id": 3
+    },
+    {
+      "title": "Hello Dolly",
+      "body": "Hello hello",
+      "tags": [
+        "hello"
+      ],
+      "id": 4
+    },
+    {
+      "title": "new one",
+      "body": "Hello world",
+      "tags": [
+        "abc",
+        "cde"
+      ],
+      "id": 5
+    },
+    {
+      "title": "Hello Joney",
+      "body": "hello world",
+      "tags": [
+        "Hl",
+        "Bi"
+      ],
+      "id": 6
+    },
+    {
+      "title": "fsdfsd",
+      "body": "fdsfsdf",
+      "tags": [
+        "fsdf",
+        "ff"
+      ],
+      "id": 7
+    },
+    {
+      "title": "dfsdfsdfsd",
+      "body": "fffdsfdfds",
+      "tags": [
+        "fdsf",
+        "565"
+      ],
+      "id": 8
+    }
+  ]
+}
