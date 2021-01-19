@@ -1,5 +1,6 @@
 
 import { ref } from 'vue'
+import { projectFirestore } from '../firebase/config'
 
 const getPosts = () => {
     const posts = ref([])
@@ -7,7 +8,16 @@ const getPosts = () => {
 
     const load = async() => {
         try {
-            //simpulate dealy
+
+            const res = await projectFirestore.collection('posts')
+            .orderBy('title', 'desc')
+            .get()
+
+            posts.value = res.docs.map(doc => {
+                return { ...doc.data(), id: doc.id }
+                
+            })
+            /* //simpulate dealy
             await new Promise(resolve => {
                 setTimeout(resolve, 2000)
             })
@@ -17,7 +27,7 @@ const getPosts = () => {
             }
             // console.log(data.json());
             
-            posts.value = await data.json()
+            posts.value = await data.json() */
 
         } catch (error) {
             error.value = error.message
